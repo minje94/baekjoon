@@ -18,7 +18,6 @@ public class ex1120 {
 			count = 0;
 			for(int i=0; i<A.length; i++) {
 				if(!A[i].equals(B[i+ seat])) {
-					System.out.println("seat: " + seat);
 					count++;
 				}
 			}
